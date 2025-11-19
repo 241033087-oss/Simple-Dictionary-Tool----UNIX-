@@ -58,3 +58,14 @@ chmod +x dict_handler.sh
 <img width="392" height="200" alt="image" src="https://github.com/user-attachments/assets/cedcf56a-3b51-4a1e-b5f2-79ffabc87bf9" />
 
 
+
+This project is a simple Telnet-based dictionary server made using a shell script.
+It stores words and meanings in a local file dict.txt.
+A handler script dict_handler.sh reads user input over Telnet.
+It shows a prompt and waits for the user to type a word.
+The script searches the word in dict.txt using a case-insensitive lookup.
+If the word exists, it sends back the meaning to the client.
+If not, it displays a “Not found” message.
+Typing quit ends the session.
+socat is used to listen on port 2323 and run the handler for each client.
+Users connect by running: telnet localhost 2323.
