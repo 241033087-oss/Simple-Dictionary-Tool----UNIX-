@@ -52,3 +52,9 @@ chmod +x dict_handler.sh
 
 
 ./dict_handler.sh
+
+
+
+<img width="392" height="200" alt="image" src="https://github.com/user-attachments/assets/cedcf56a-3b51-4a1e-b5f2-79ffabc87bf9" />
+
+
